@@ -1,0 +1,286 @@
+{
+    "ships": [
+        {
+            "engineType": "Diesel",
+            "capacityKg": 150000
+        },
+        {
+            "engineType": "LNG",
+            "capacityKg": 220000
+        },
+        {
+            "engineType": "Electric Hybrid",
+            "capacityKg": 90000
+        }
+    ],
+    "voyages": [
+        {
+            "shipRef": 0,
+            "origin": "Port of Shanghai",
+            "destination": "Port of Los Angeles",
+            "departureTime": "2025-05-01T08:00:00Z",
+            "cargoKg": 130000,
+            "weather": "Moderate",
+            "plan": {
+                "fuelKg": 180000,
+                "speedScheduleKph": 40
+            },
+            "actuals": {
+                "fuelKg": 185500,
+                "notes": "Encountered unexpected currents."
+            }
+        },
+        {
+            "shipRef": 1,
+            "origin": "Port of Rotterdam",
+            "destination": "Port of New York",
+            "departureTime": "2025-07-10T14:00:00Z",
+            "cargoKg": 180000,
+            "weather": "Calm",
+            "plan": {
+                "fuelKg": 92000,
+                "speedScheduleKph": 42
+            }
+        },
+        {
+            "shipRef": 2,
+            "origin": "Port of Singapore",
+            "destination": "Port of Dubai",
+            "departureTime": "2025-06-05T11:00:00Z",
+            "cargoKg": 85000,
+            "weather": "Calm",
+            "plan": {
+                "fuelKg": 65000,
+                "speedScheduleKph": 41
+            },
+            "actuals": {
+                "fuelKg": 64500,
+                "notes": "Favorable winds."
+            }
+        },
+        {
+            "shipRef": 0,
+            "origin": "Port of Los Angeles",
+            "destination": "Port of Tokyo",
+            "departureTime": "2025-08-15T20:00:00Z",
+            "cargoKg": 110000,
+            "weather": "Stormy",
+            "plan": {
+                "fuelKg": 150000,
+                "speedScheduleKph": 35
+            }
+        },
+        {
+            "shipRef": 1,
+            "origin": "Port of New York",
+            "destination": "Port of Hamburg",
+            "departureTime": "2025-08-01T16:00:00Z",
+            "cargoKg": 210000,
+            "weather": "Moderate",
+            "plan": {
+                "fuelKg": 98000,
+                "speedScheduleKph": 40
+            },
+            "actuals": {
+                "fuelKg": 101000,
+                "notes": "Minor engine adjustments needed."
+            }
+        },
+        {
+            "shipRef": 2,
+            "origin": "Port of Dubai",
+            "destination": "Port of Mumbai",
+            "departureTime": "2025-07-20T04:00:00Z",
+            "cargoKg": 70000,
+            "weather": "Calm",
+            "plan": {
+                "fuelKg": 25000,
+                "speedScheduleKph": 39
+            }
+        },
+        {
+            "shipRef": 0,
+            "origin": "Port of Tokyo",
+            "destination": "Port of Shanghai",
+            "departureTime": "2025-09-10T09:00:00Z",
+            "cargoKg": 140000,
+            "weather": "Moderate",
+            "plan": {
+                "fuelKg": 35000,
+                "speedScheduleKph": 43
+            }
+        },
+        {
+            "shipRef": 1,
+            "origin": "Port of Hamburg",
+            "destination": "Port of Algeciras",
+            "departureTime": "2025-09-02T18:00:00Z",
+            "cargoKg": 190000,
+            "weather": "Calm",
+            "plan": {
+                "fuelKg": 45000,
+                "speedScheduleKph": 41
+            },
+            "actuals": {
+                "fuelKg": 44800,
+                "notes": ""
+            }
+        },
+        {
+            "shipRef": 2,
+            "origin": "Port of Mumbai",
+            "destination": "Port of Singapore",
+            "departureTime": "2025-08-11T22:00:00Z",
+            "cargoKg": 88000,
+            "weather": "Moderate",
+            "plan": {
+                "fuelKg": 55000,
+                "speedScheduleKph": 40
+            }
+        },
+        {
+            "shipRef": 0,
+            "origin": "Port of Shanghai",
+            "destination": "Port of Sydney",
+            "departureTime": "2025-10-01T12:00:00Z",
+            "cargoKg": 125000,
+            "weather": "Calm",
+            "plan": {
+                "fuelKg": 130000,
+                "speedScheduleKph": 42
+            }
+        },
+        {
+            "shipRef": 1,
+            "origin": "Port of Algeciras",
+            "destination": "Suez Canal",
+            "departureTime": "2025-09-25T07:00:00Z",
+            "cargoKg": 205000,
+            "weather": "Calm",
+            "plan": {
+                "fuelKg": 75000,
+                "speedScheduleKph": 38
+            }
+        },
+        {
+            "shipRef": 2,
+            "origin": "Port of Singapore",
+            "destination": "Port of Hong Kong",
+            "departureTime": "2025-09-30T01:00:00Z",
+            "cargoKg": 90000,
+            "weather": "Stormy",
+            "plan": {
+                "fuelKg": 32000,
+                "speedScheduleKph": 34
+            },
+            "actuals": {
+                "fuelKg": 35000,
+                "notes": "Route deviation due to storm."
+            }
+        },
+        {
+            "shipRef": 0,
+            "origin": "Port of Sydney",
+            "destination": "Port of Melbourne",
+            "departureTime": "2025-10-20T03:00:00Z",
+            "cargoKg": 50000,
+            "weather": "Moderate",
+            "plan": {
+                "fuelKg": 15000,
+                "speedScheduleKph": 37
+            }
+        },
+        {
+            "shipRef": 1,
+            "origin": "Suez Canal",
+            "destination": "Port of Jeddah",
+            "departureTime": "2025-10-10T14:00:00Z",
+            "cargoKg": 195000,
+            "weather": "Calm",
+            "plan": {
+                "fuelKg": 20000,
+                "speedScheduleKph": 36
+            }
+        },
+        {
+            "shipRef": 2,
+            "origin": "Port of Hong Kong",
+            "destination": "Port of Busan",
+            "departureTime": "2025-10-15T19:00:00Z",
+            "cargoKg": 75000,
+            "weather": "Calm",
+            "plan": {
+                "fuelKg": 28000,
+                "speedScheduleKph": 40
+            },
+            "actuals": {
+                "fuelKg": 27900,
+                "notes": "Smooth sailing."
+            }
+        },
+        {
+            "shipRef": 0,
+            "origin": "Port of Melbourne",
+            "destination": "Port of Auckland",
+            "departureTime": "2025-11-05T06:00:00Z",
+            "cargoKg": 65000,
+            "weather": "Stormy",
+            "plan": {
+                "fuelKg": 22000,
+                "speedScheduleKph": 33
+            }
+        },
+        {
+            "shipRef": 1,
+            "origin": "Port of Jeddah",
+            "destination": "Port of Colombo",
+            "departureTime": "2025-10-22T00:00:00Z",
+            "cargoKg": 215000,
+            "weather": "Moderate",
+            "plan": {
+                "fuelKg": 85000,
+                "speedScheduleKph": 41
+            }
+        },
+        {
+            "shipRef": 2,
+            "origin": "Port of Busan",
+            "destination": "Port of Qingdao",
+            "departureTime": "2025-11-01T08:00:00Z",
+            "cargoKg": 82000,
+            "weather": "Calm",
+            "plan": {
+                "fuelKg": 12000,
+                "speedScheduleKph": 42
+            }
+        },
+        {
+            "shipRef": 0,
+            "origin": "Port of Auckland",
+            "destination": "Port of Los Angeles",
+            "departureTime": "2025-11-20T17:00:00Z",
+            "cargoKg": 145000,
+            "weather": "Moderate",
+            "plan": {
+                "fuelKg": 160000,
+                "speedScheduleKph": 40
+            }
+        },
+        {
+            "shipRef": 1,
+            "origin": "Port of Colombo",
+            "destination": "Port of Singapore",
+            "departureTime": "2025-11-08T13:00:00Z",
+            "cargoKg": 200000,
+            "weather": "Calm",
+            "plan": {
+                "fuelKg": 40000,
+                "speedScheduleKph": 39
+            },
+            "actuals": {
+                "fuelKg": 40500,
+                "notes": "Port delay."
+            }
+        }
+    ]
+}

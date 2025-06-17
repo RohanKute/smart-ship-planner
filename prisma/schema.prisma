@@ -6,10 +6,48 @@
 
 generator client {
   provider = "prisma-client-js"
-  output   = "../generated/prisma"
 }
 
 datasource db {
   provider = "mongodb"
   url      = env("DATABASE_URL")
+}
+
+model Ship {
+  id         String @id @default(auto()) @map("_id") @db.ObjectId
+  engineType String 
+  capacityKg Int    
+  voyages     Voyage[]
+  maintenance Maintenance?
+}
+
+model Voyage {
+  id            String   @id @default(auto()) @map("_id") @db.ObjectId
+  origin        String
+  destination   String
+  cargoKg       Int      
+  weather       String   
+  departureTime DateTime 
+  plan    Json  
+  actuals Json? 
+  shipId String  @db.ObjectId
+  ship   Ship    @relation(fields: [shipId], references: [id])
+  fuelLogs FuelLog[]
+}
+model FuelLog {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  timestamp    DateTime 
+  fuelBurnRate Float    
+  speedKph     Float
+  voyageId String @db.ObjectId
+  voyage   Voyage @relation(fields: [voyageId], references: [id])
+}
+
+model Maintenance {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  lastServiceDate  DateTime
+  totalEngineHours Float
+  predictedNextService DateTime
+  shipId String @unique @db.ObjectId
+  ship   Ship   @relation(fields: [shipId], references: [id])
 }
