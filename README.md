@@ -12,6 +12,14 @@ Instead of relying on static calculations, this system uses historical data to m
 * **Continuous Learning Loop:** Uses feedback from actual voyages to improve the accuracy of future predictions.
 * **Fully Containerized:** Runs on Docker for easy setup and consistent environments.
 
+## 🛠️ Tech Stack
+
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB
+* **ORM:** Prisma
+* **AI / Machine Learning:** TensorFlow.js
+* **Containerization:** Docker, Docker Compose
+* **Language:** TypeScript
 ---
 
 ## 🚀 Getting Started
