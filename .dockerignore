@@ -1,0 +1,11 @@
+# .dockerignore
+
+node_modules
+dist
+.env
+npm-debug.log
+
+# Exclude docker files themselves
+.dockerignore
+Dockerfile
+docker-compose.yml
